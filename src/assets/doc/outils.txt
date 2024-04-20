@@ -1,0 +1,5 @@
+Visual Studio
+ChatGPT / Copilot
+npm / yarn
+Git / Github
+Postman / Burp Suite

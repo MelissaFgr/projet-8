@@ -1,0 +1,17 @@
+.portfolio_cards {
+    display: flex;
+    justify-content: center; /* Centrer les cartes horizontalement */
+    background-color: white;
+  }
+  
+  .portfolio_cards {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 50px;
+    padding: 50px;
+    height: auto;
+  }
+  
+  

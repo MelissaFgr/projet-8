@@ -1,0 +1,74 @@
+#presentation{
+    &_content{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: white;
+        gap: 10rem;
+        height: 35rem;
+        font-family: "Raleway", sans-serif;
+        font-weight: 500;
+
+        &_image{
+            width: 300px; 
+            height: 300px; 
+            border-radius: 50%; 
+            object-fit: cover;
+        }
+
+        &_filereader{
+            display: flex;
+            width: 30rem;
+            font-size: 20px;
+            text-align: justify;
+        }
+    }
+}
+
+
+@media only screen and (max-width: 1024px) {
+    #presentation {
+        &_content {
+            flex-direction: column;
+            height: auto;
+            gap: 2rem; 
+            padding: 10px 0;
+            
+            &_image {
+            width: 200px;
+            height: 200px; 
+        }
+
+        &_filereader {
+            width: 90vw;
+            max-width: 30rem; 
+            font-size: 16px;
+        }
+    }
+        }
+        
+}
+
+@media only screen and (max-width: 600px) {
+    #presentation {
+        &_content {
+            width: auto; 
+            gap: 1rem; 
+            
+            &_image {
+            width: 150px; 
+            height: 150px; 
+        }
+
+        &_filereader {
+            width: auto;
+            font-size: 14px; 
+        }
+        }
+
+        
+    }
+    .content_text p{
+        width: 20rem;
+    }
+}

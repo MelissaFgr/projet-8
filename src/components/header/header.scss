@@ -1,0 +1,114 @@
+#header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 50rem;
+  padding: 20px;
+  background-image: url('../../assets/images/fond_header.jpg');
+  background-size: cover; 
+  background-position: center; 
+  gap: 4rem;
+
+  &_title {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: white;
+    font-family: "Raleway", sans-serif;
+    font-size: 32px;
+    font-weight: bold;
+  }
+
+  &_button {
+    display: flex;
+    gap: 5rem;
+
+    a {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-decoration: none;
+      color: #333;
+      padding: 10px 20px;
+      border: 2px solid #00AB8B;
+      border-radius: 20px; 
+      color: white;
+      background-color: #00AB8B;
+      height: 1.5rem;
+      font-family: "Raleway", sans-serif;
+      width: 8rem;
+
+
+      &:hover {
+        background-color: #00836b; 
+        color: white;
+        border: 2px solid #00836b;
+      }
+    }
+    
+    button {
+      text-decoration: none;
+      color: #333;
+      padding: 10px 20px;
+      border: 2px solid white;
+      border-radius: 20px; 
+      color: white;
+      background-color: transparent; 
+      transition: background-color 0.3s;
+      height: 3.2rem;
+      font-family: "Raleway", sans-serif;
+      font-size: 1rem;
+      width: 9rem;
+
+      &:hover {
+        background-color: transparent; 
+        color: rgba(255, 255, 255, 0.76);
+        cursor: pointer;
+        border: 2px solid rgba(255, 255, 255, 0.76);
+      }
+    }
+  }
+}
+
+
+
+/* Media query for mobile devices */
+@media only screen and (max-width: 600px) {
+  #header {
+    height: 15rem;
+    padding: 10px;
+    gap: 1rem;
+    width: auto;
+
+    &_title {
+      font-size: 18px;
+      margin-bottom: 5px;
+    }
+
+    &_button {
+      justify-content: center;
+      align-items: center;
+      gap: 1rem;
+
+      a,
+      button {
+        padding: 6px 12px;
+        font-size: 12px;
+      }
+
+      .modal_button_download{
+        text-decoration: none;
+          color: #333;
+          border: 2px solid #00AB8B;
+          border-radius: 20px; 
+          color: white;
+          background-color: #00AB8B; 
+          transition: background-color 0.3s;
+          height: 1.5rem;
+          padding: 6px 12px;
+            font-size: 12px;
+      }
+    }
+  }
+
+}

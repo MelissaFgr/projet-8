@@ -1,0 +1,112 @@
+#competences{
+    &_content{
+        display: flex;
+        gap: 10rem;
+        justify-content: center;
+        background-color: white;
+        height: 425px;
+        padding-top: 5rem;
+        font-family: "Raleway", sans-serif;
+
+        h2{
+          font-weight: 600;
+          font-size: 20px;
+        }
+
+        p{
+          font-size: 16px;
+        }
+
+        &_front{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            &_icon{
+                padding-bottom: 0.5rem;
+            }
+            &_filereader{
+                text-align: center;
+            }
+        }
+
+        &_back{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            &_icon{
+                padding-bottom: 0.5rem;
+            }
+            &_filereader{
+                text-align: center;
+            }
+        }
+
+        &_tools{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            &_icon{
+                padding-bottom: 0.5rem;
+            }
+            &_filereader{
+                text-align:center;
+            }
+        }
+    }
+}
+
+/* Media query for tablets */
+@media only screen and (max-width: 1024px) {
+    #competences {
+      &_content {
+        flex-direction: column;
+        gap: 4rem;
+        height: auto;
+        padding-top: 3rem;
+  
+        &_front,
+        &_back,
+        &_tools {
+          width: 100%;
+          align-items: center;
+  
+          &_icon {
+            padding-bottom: 0.5rem;
+          }
+  
+          &_filereader {
+            text-align: center;
+          }
+        }
+      }
+    }
+  }
+  
+  /* Media query for mobile devices */
+  @media only screen and (max-width: 600px) {
+    #competences {
+      &_content {
+        flex-direction: column;
+        gap: 2rem;
+        height: auto;
+        padding-top: 2rem;
+  
+        &_front,
+        &_back,
+        &_tools {
+          width: 100%;
+          align-items: center;
+  
+          &_icon {
+            padding-bottom: 0.3rem;
+          }
+  
+          &_filereader {
+            text-align: center;
+            font-size: 14px;
+          }
+        }
+      }
+    }
+  }
+  
