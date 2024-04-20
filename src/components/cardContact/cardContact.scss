@@ -1,0 +1,183 @@
+.cardcontact {
+    display: grid;
+    place-items: center;
+    width: 190px;
+    height: 254px;
+    font-family: "Raleway", sans-serif;
+  }
+  
+  .cardcontact_card {
+    width: 190px;
+    height: 254px;
+    background: #FAF1F6;
+    padding: 2rem 1.5rem;
+    transition: box-shadow .3s ease, transform .2s ease;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    box-shadow: 0 10px 50px #23232333;
+  }
+  
+  .cardcontact_card_info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .cardcontact_card_info_avatar {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    transition: transform .2s ease;
+  }
+  
+  .cardcontact_card_info_avatar img {
+    padding-top: 5px;
+    height: 100px;
+    width: 100px;
+    fill: #515F65;
+    object-fit: cover;
+    border-radius: 50%;
+  }
+  
+  .cardcontact_card_info_social {
+    display: flex;
+    justify-content: space-around;
+    width: 190px;
+    margin-top: 10%;
+    text-align: center;
+  }
+  
+  .cardcontact_card_info_social_icon {
+    list-style: none;
+    color: #515F65;
+    font-size: 0.5em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .cardcontact_card_info_social_icon svg {
+    display: block;
+    height: 20px;
+    width: 20px;
+    fill: #515F65;
+    cursor: pointer;
+  }
+  
+  .cardcontact_card_info_title {
+    color: #1b1b1b;
+    font-size: 1.5em;
+    font-weight: 600;
+    line-height: 2rem;
+    margin-top: 5px;
+  }
+  
+  .cardcontact_card_info_subtitle {
+    color: #00263b;
+    font-size: 1.0em;
+    text-align: center;
+  }
+
+  .cardcontact_card_info_address {
+    display: flex;
+    flex-direction: column;
+
+  }
+
+  .cardcontact_card_info_address_icon {
+    fill: #515F65;
+    height: 150px;
+    width: 100px;
+    list-style: none;
+    justify-content: space-around;
+  }
+  
+  .cardcontact_card_info_address_title {
+    color: #1b1b1b;
+    font-size: 2em;
+    font-weight: 600;
+    line-height: 2rem;
+    margin-top: 5px;
+    padding-top: 35px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+  }
+  
+  .cardcontact_card_info_address_address {
+    color: #00263b;
+    font-size: 0.9em;
+    list-style: none;
+    padding-left: 20px;
+    margin-top: 20%;
+    display: flex;
+    text-align: center;
+    align-items: center;
+  }
+  
+  .cardcontact_card_info_title {
+    color: #333;
+    font-size: 1.5em;
+    font-weight: 600;
+    margin-top: 20%;
+    padding-bottom: 5px;
+  }
+  
+  .cardcontact_card_info_title_contact {
+    color: #00263b;
+    font-size: 0.9em;
+    margin-top: 10%;
+  }
+  
+  .cardcontact_card_info_title_contact_icon {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin-top: 5%;
+  }
+  
+  .cardcontact_card_info_title_contact_icon svg {
+    display: block;
+    height: 18px;
+    width: 18px;
+    fill: #515F65;
+    padding-right: 5px;
+  }
+  
+  .cardcontact_card:hover {
+    box-shadow: 0 10px 50px #2323238f;
+  }
+  
+  .cardcontact_card:hover .cardcontact_card_info {
+    transform: translateY(-5%);
+  }
+  
+  .cardcontact_card_info_avatar:hover {
+    transform: scale(1.1);
+  }
+  
+  #cs1:hover {
+    transform: scale(2.0);
+  }
+  
+  #cs2:hover {
+    transform: scale(2.0);
+  }
+  
+  #cs3:hover {
+    transform: scale(2.0);
+  }
+  
+  .cardcontact:hover #c1 {
+    transform: translateX(0px);
+  }
+  
+  .cardcontact:hover #c2 {
+    transform: translateX(250px);
+  }
+  
+  .cardcontact:hover #c3 {
+    transform: translateX(-250px);
+  }
