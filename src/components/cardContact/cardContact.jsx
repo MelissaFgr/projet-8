@@ -26,7 +26,7 @@ const cardContact = () => (
 
    <div id="c3" class="cardcontact_card">
        <div class="cardcontact_card_info_address">
-           <span class="cardcontact_card_info_address_title">Adresse</span>
+           <div class="cardcontact_card_info_address_title">Adresse</div>
            <div class="cardcontact_card_info_address_address">Picardie, France</div>
      </div>
    </div>

@@ -3,10 +3,13 @@ import { Link } from 'react-router-dom';
 import './cards.scss';
 
 const Card = ({ title, content, url, cover }) => (
-  <Link to={`${url}`} target='_blank' rel="noopener noreferrer" className='card' style={{ backgroundImage: `url(${cover})`, backgroundSize: 'cover', backgroundPosition: 'center', backgroundRepeat: 'no-repeat', objectFit: 'cover' }}>
+  <div>
+    <Link to={`${url}`} target='_blank' rel="noopener noreferrer" className='card' style={{ backgroundImage: `url(${cover})`, backgroundSize: 'cover', backgroundPosition: 'start', backgroundRepeat: 'no-repeat', objectFit: 'cover' }}>
+    </Link>
     <h3 className='card_title'>{title}</h3>
     <p className='card_content'>{content}</p>
-  </Link>
+  </div>
+
 );
 
 export default Card;

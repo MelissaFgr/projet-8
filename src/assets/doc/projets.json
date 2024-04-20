@@ -1,32 +1,26 @@
 [
     {
-        "title": "Booki",
-        "content": "Outil de planification de vacances, recherche de logement et d'activité par ville - Projet OpenClassrooms",
-        "url": "https://melissafgr.github.io/Projet-2/",
-        "cover": "https://i.ibb.co/h8n9qCQ/projet-1.png"
-    },
-    {
         "title": "Sophie Bluel - Architecte d'intérieur",
-        "content":"Rendre dynamique le site statique de Sophie Bluel, une architecte d'intérieur - Projet OpenClassrooms",
+        "content":"HTML / CSS, JavaScript",
         "url": "https://melissafgr.github.io/Projet-3/",
         "cover": "https://i.ibb.co/XxQSpcq/projet-2.png"
     },
     {
         "title": "Nina Carducci - Photographe professionnel",
-        "content":"Corriger et optimiser les performances et le référencement du site de Nina Carducci - Projet OpenClassrooms",
+        "content":"Débug, Optimisation SEA, Accessibilité",
         "url": "https://melissafgr.github.io/Projet-5/",
-        "cover": "https://i.ibb.co/hVF0tM0/Projet-5.png"
+        "cover": "https://i.ibb.co/6r3QMtR/projet-5.png"
     },
     {
         "title": "Kasa",
-        "content":"Application web de location immobilière avec React - Projet OpenClassrooms",
+        "content":"Javacript, REACT, Sass",
         "url": "https://melissafgr.github.io/Projet-6/",
         "cover": "https://i.ibb.co/Bg4P7wj/Projet-6.png"
     },
     {
         "title": "Mon vieux grimoire",
-        "content":"Réaliser le Back-End d'une application de référencement et de notation de livres - Projet OpenClassrooms",
+        "content":"Node.JS, Express.JS, MongoDB",
         "url": "https://github.com/MelissaFgr/Projet-7",
-        "cover": "imgP7"
-    }
+        "cover": "https://i.ibb.co/RgkWq4S/projet-7.png"
+    }    
 ]
