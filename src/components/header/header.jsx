@@ -8,8 +8,6 @@ const Header = ({ title, headerBackground }) => (
   <header id='header'>
     <HeaderNav/>
     <p id='header_title'>{title}</p>
-    {/*<div id='banner_image_div'></div>
-    <img src={headerBackground} alt="Image du header" id='header_image' />*/}
     <div id='header_button'>
         <a href='#contact'>Me contacter</a>
         <div id='header_button_modal'>
