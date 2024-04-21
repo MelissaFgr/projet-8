@@ -70,9 +70,15 @@
   }
 }
 
+@media only screen and (max-width: 1024px) {
+  #header{
+    &_title {
+      width: 45%;
+      text-align: center;
+    }
+  }
+}
 
-
-/* Media query for mobile devices */
 @media only screen and (max-width: 600px) {
   #header {
     height: 15rem;

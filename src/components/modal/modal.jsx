@@ -13,7 +13,7 @@ function ModalApp() {
   useEffect(() => {
     // Vérifier si l'utilisateur est sur un appareil mobile
     const checkIsMobile = () => {
-      setIsMobile(window.innerWidth < 768); // 768 pixels pour tablettes et desktops
+      setIsMobile(window.innerWidth < 600); // 768 pixels pour tablettes et desktops
     };
 
     // Appeler la fonction checkIsMobile lors du chargement initial et lors du redimensionnement de la fenêtre
@@ -39,7 +39,7 @@ function ModalApp() {
     <div>
       {isMobile ? (
         <a className='modal_button_download' href={cv} download>
-          Télécharger le CV
+          Télécharger mon CV
         </a>
       ) : (
         <button onClick={() => setModalIsOpen(true)}>Mon CV</button>
