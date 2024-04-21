@@ -1,26 +1,26 @@
 [
     {
-        "title": "Sophie Bluel - Architecte d'intérieur",
-        "content":"HTML / CSS, JavaScript",
-        "url": "https://melissafgr.github.io/Projet-3/",
-        "cover": "https://i.ibb.co/XxQSpcq/projet-2.png"
+        "title": "Booki - Agence de voyages",
+        "content":"HTML / CSS",
+        "url": "http://melissafaugere.fr:8080",
+        "cover": "https://i.postimg.cc/NjjGcw0B/projet-1.png"
     },
     {
         "title": "Nina Carducci - Photographe professionnel",
         "content":"Débug, Optimisation SEA, Accessibilité",
-        "url": "https://melissafgr.github.io/Projet-5/",
+        "url": "http://melissafaugere.fr:8082",
         "cover": "https://i.ibb.co/6r3QMtR/projet-5.png"
     },
     {
         "title": "Kasa",
         "content":"Javacript, REACT, Sass",
-        "url": "https://melissafgr.github.io/Projet-6/",
+        "url": "http://melissafaugere.fr:8083",
         "cover": "https://i.ibb.co/Bg4P7wj/Projet-6.png"
     },
     {
         "title": "Mon vieux grimoire",
         "content":"Node.JS, Express.JS, MongoDB",
-        "url": "https://github.com/MelissaFgr/Projet-7",
+        "url": "http://melissafaugere.fr:8084",
         "cover": "https://i.ibb.co/RgkWq4S/projet-7.png"
     }    
 ]
