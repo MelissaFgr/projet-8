@@ -9,9 +9,9 @@ const Portfolio = () => (
     <section id='portfolio'>
     <Banner title='Portfolio' bannerBackground={bannerImage}/>
     <div className='portfolio_cards'>
-        {projetsData.map(({ title, content, url, cover }) => (
+        {projetsData.map(({ title, content, url, cover, subtitle }) => (
           console.log ({cover}),
-          <Card key={title} title={title} content={content} url={url} cover={cover}/>
+          <Card key={title} title={title} content={content} url={url} cover={cover} subtitle={subtitle}/>
         ))}
       </div>
     </section>

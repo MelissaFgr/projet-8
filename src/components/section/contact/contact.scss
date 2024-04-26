@@ -1,76 +1,93 @@
 #contact_container{
-    background-color: white;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    height: 30rem;
-    padding-top: 5rem;
+  background-color: rgb(236, 234, 226);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 30rem;
+  padding-top: 5rem;
 }
 #contact_container_links{
-    display: flex;
-    height: 15rem;
-    justify-content: center;
-    align-items: center;
-    flex-direction: wrap;
-    gap: 5rem;
+  display: flex;
+  height: 15rem;
+  justify-content: center;
+  align-items: center;
+  flex-direction: wrap;
+  gap: 5rem;
 }
 
 .card_contact{
-  margin-top: 5rem;
-  
+margin-top: 5rem;
+
 }
 
 .tooltip {
-    position: relative;
-    display: inline-block;
-    cursor: pointer;
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.tooltip .tooltipbutton {
+  background-color: #db3434;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s ease-out;
+}
+
+.tooltip .tooltipbutton:hover {
+  background-color: #b92929;
+  transform: scale(1.05);
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+
+.tooltiptext {
+  visibility: hidden;
+  width: 200px;
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  border-radius: 8px;
+  padding: 5px;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  margin-left: -110px;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.tooltiptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #333 transparent transparent transparent;
+}
+
+.desktop_contact{
+  display: block;
+}
+
+.mobile_contact{
+  display: none;
+}
+
+@media only screen and (max-width: 1024px) {
+  .desktop_contact {
+    display: none; /* Cache le composant CardContact sur les tablettes et smartphones */
   }
-  
-  .tooltip .tooltipbutton {
-    background-color: #db3434;
-    color: #fff;
-    border: none;
-    padding: 10px 20px;
-    border-radius: 5px;
-    font-size: 16px;
-    cursor: pointer;
-    transition: background-color 0.3s, transform 0.2s ease-out;
+  .mobile_contact {
+    display: block; /* Affiche le composant MobileContact sur les tablettes et smartphones */
   }
-  
-  .tooltip .tooltipbutton:hover {
-    background-color: #b92929;
-    transform: scale(1.05);
-  }
-  
-  .tooltip:hover .tooltiptext {
-    visibility: visible;
-    opacity: 1;
-  }
-  
-  .tooltiptext {
-    visibility: hidden;
-    width: 200px;
-    background-color: #333;
-    color: #fff;
-    text-align: center;
-    border-radius: 8px;
-    padding: 5px;
-    position: absolute;
-    z-index: 1;
-    bottom: 125%;
-    left: 50%;
-    margin-left: -110px;
-    opacity: 0;
-    transition: opacity 0.3s;
-  }
-  
-  .tooltiptext::after {
-    content: "";
-    position: absolute;
-    top: 100%;
-    left: 50%;
-    margin-left: -5px;
-    border-width: 5px;
-    border-style: solid;
-    border-color: #333 transparent transparent transparent;
-  }
+}

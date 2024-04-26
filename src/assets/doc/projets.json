@@ -1,12 +1,14 @@
 [
     {
-        "title": "Booki - Agence de voyages",
+        "title": "Booki",
+        "subtitle": "Agence de voyage",
         "content":"HTML / CSS",
         "url": "http://melissafaugere.fr:8080",
         "cover": "https://i.postimg.cc/NjjGcw0B/projet-1.png"
     },
     {
-        "title": "Nina Carducci - Photographe professionnel",
+        "title": "Nina Carducci",
+        "subtitle": "Photographe Professionelle",
         "content":"Débug, Optimisation SEA, Accessibilité",
         "url": "http://melissafaugere.fr:8082",
         "cover": "https://i.ibb.co/6r3QMtR/projet-5.png"
@@ -23,4 +25,4 @@
         "url": "http://melissafaugere.fr:8084",
         "cover": "https://i.ibb.co/RgkWq4S/projet-7.png"
     }    
-]
+] 

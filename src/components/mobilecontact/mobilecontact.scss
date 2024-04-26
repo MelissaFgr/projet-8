@@ -1,0 +1,21 @@
+.contact_info {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center; 
+    height: 100%; 
+    gap: 1.5rem; 
+    font-family: "Raleway", sans-serif;
+    color: #00263b;
+    
+    .contact_info_item {
+      margin-bottom: 20px; 
+      text-align: center; 
+
+      span {
+        display: block; 
+        margin-top: 0.8rem; 
+      }
+    }
+  }
+  

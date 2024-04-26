@@ -3,14 +3,14 @@
     top: 0;
     left: 0;
     width: 100%;
-    z-index: 1000; /* Assurez-vous que l'en-tête est au-dessus du reste du contenu */
+    z-index: 1000; 
     background-color: transparent;
-    transition: background-color 0.3s ease-in-out; // Transition en douceur pour le changement de couleur de fond
+    transition: background-color 0.3s ease-in-out; 
   
     &_nav {
       display: flex;
-      justify-content: center; // Aligner les liens à droite de la page
-      gap: 20px; // Espacement entre les liens
+      justify-content: center; 
+      gap: 20px; 
   
       a {
         text-decoration: none;
@@ -74,7 +74,7 @@
   }
   
   .headernav.scrolled {
-    background-color: #f0f0f0; 
+    background-color: rgb(236, 234, 226); 
     a {
       background-image: linear-gradient(to right, #DF8E32, #00AB8B);
       background-clip: text;
@@ -105,7 +105,7 @@
     display: flex;
     align-items: center;
     justify-content: flex-start;
-    background-color: white;
+    background-color: rgb(236, 234, 226);
     &_nav {
       flex-direction: row;
       align-items: center;
