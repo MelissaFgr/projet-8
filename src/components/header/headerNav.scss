@@ -74,7 +74,7 @@
   }
   
   .headernav.scrolled {
-    background-color: rgb(236, 234, 226); 
+    background-color: rgb(228 228 231); 
     a {
       background-image: linear-gradient(to right, #DF8E32, #00AB8B);
       background-clip: text;
@@ -105,7 +105,7 @@
     display: flex;
     align-items: center;
     justify-content: flex-start;
-    background-color: rgb(236, 234, 226);
+    background-color: rgb(241 245 249);
     &_nav {
       flex-direction: row;
       align-items: center;
