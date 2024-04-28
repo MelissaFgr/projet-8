@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import Banner from '../../banner/banner';
-import bannerImage from '../../../assets/images/black_background.png';
+import bannerImage from '../../../assets/images/black_background.avif';
 import projetsData from '../../../assets/doc/projets.json';
 import Card from '../../cards/cards';
 import './portfolio.scss'

@@ -1,7 +1,4 @@
 import React, { useEffect } from 'react';
-import Banner from '../../components/banner/banner';
-import Section from '../../components/section/presentation/presentation';
-import bannerImage from '../../assets/images/black_background.png';
 
 import Header from '../../components/header/header';
 import Presentation from '../../components/section/presentation/presentation';

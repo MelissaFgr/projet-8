@@ -1,5 +1,5 @@
 import React from 'react';
-import avatar from '../../assets/images/photo_profile.jpg'
+import avatar from '../../assets/images/photo_profile.avif'
 import './cardContact.scss';
 import { Link } from 'react-router-dom';
 

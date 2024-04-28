@@ -1,7 +1,7 @@
 import React from 'react';
 import Banner from '../../banner/banner';
 import './competences.scss';
-import bannerImage from '../../../assets/images/black_background.png';
+import bannerImage from '../../../assets/images/black_background.avif';
 import FileReader from '../../../components/fileReader/fileReader';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faDatabase, faGear } from '@fortawesome/free-solid-svg-icons'; // Import de faHtml5 depuis free-solid-svg-icons

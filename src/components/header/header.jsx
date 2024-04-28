@@ -4,7 +4,7 @@ import ModalApp from '../modal/modal';
 import HeaderNav from './headerNav';
 
 
-const Header = ({ title, headerBackground }) => (
+const Header = ({ title}) => (
   <header id='header'>
     <HeaderNav/>
     <p id='header_title'>{title}</p>
