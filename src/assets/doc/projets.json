@@ -2,6 +2,7 @@
     {
         "title": "Booki",
         "subtitle": "Agence de voyage",
+        "description":"Application web pour permettre aux sagers de trouver des hébergements et activités dans la ville de leur choix",
         "content":"HTML / CSS",
         "url": "http://melissafaugere.fr:8080",
         "cover": "https://i.postimg.cc/NjjGcw0B/projet-1.png"
@@ -9,18 +10,22 @@
     {
         "title": "Nina Carducci",
         "subtitle": "Photographe Professionelle",
+        "description":"Correction et optimisation (performance et référencement) du site d'une photographe professionnelle",
         "content":"Débug, Optimisation SEO, Accessibilité",
         "url": "http://melissafaugere.fr:8082",
         "cover": "https://i.ibb.co/6r3QMtR/projet-5.png"
     },
     {
         "title": "Kasa",
+        "description":"Site web permettant de mettre en relation des particuliers afin de présenter les appartements en location",
         "content":"Javacript, REACT, Sass",
         "url": "http://melissafaugere.fr:8083",
         "cover": "https://i.ibb.co/Bg4P7wj/Projet-6.png"
     },
     {
         "title": "Mon vieux grimoire",
+        "description":"Développement du back-end d'un site de notation de livres",
+        "warning":"Difficultés à la gestion des autorisations pour l'affichage des images",
         "content":"Node.JS, Express.JS, MongoDB",
         "url": "http://melissafaugere.fr:8084",
         "cover": "https://i.ibb.co/RgkWq4S/projet-7.png"
